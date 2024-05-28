@@ -54,3 +54,19 @@ nav .container .pokeball {
   font-size: clamp(10px, 5vw, 16px);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 0.5px;
 }
+
+/*         POKEDEX HEADER           */
+
+.pokedex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.pokedex-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}

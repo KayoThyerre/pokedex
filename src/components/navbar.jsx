@@ -1,5 +1,4 @@
 import React from "react";
-import './navbar.css'
 import pokeball from '../imgs/pokeball.png'
 
 const logoImg = "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
