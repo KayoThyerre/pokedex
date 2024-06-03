@@ -4,16 +4,21 @@ import Pagination from "./pagination";
 
 const Pokedex = (props) => {
     const { pokemons, loading, page, setPage, totalPages } = props;
+    
     const onPreviousClickHandler = () => {
+        console.log("voltar")
         if (page > 0) {
             setPage(page-1)
         }
     }
+
     const onNextClickHandler = () => {
+        console.log("avançar")
         if (page+1 !== totalPages) {
             setPage(page + 1)
         }
     }
+
     return (
         <div>
             <div className="pokedex-header">
@@ -30,8 +35,9 @@ const Pokedex = (props) => {
             ) : (
                 <div className="pokedex-grid">
                     {pokemons && pokemons.map((pokemon, index) => {
-                        return (<Pokemon key={index} pokemon={pokemon}/>
-                        )
+                        return (
+                            <Pokemon key={index} pokemon={pokemon}/>
+                        );
                     })}
                 </div>
             )}
