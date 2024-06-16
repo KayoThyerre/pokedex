@@ -4,7 +4,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kayoalarcon/)
 # Nome do projeto
 
-Projeto de exemplo de pokedex que consome uma API desenvolvida no HTML, CSS e JS.
+Projeto de exemplo de pokedex que consome uma API desenvolvida no REACT.
 
 # React + Vite
 
